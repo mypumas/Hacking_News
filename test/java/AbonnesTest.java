@@ -1,11 +1,21 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
+import com.hackingnews.model.Abonnement;
 import com.hackingnews.model.Abonnes;
+import com.mysql.jdbc.ResultSet;
+
 
 class AbonnesTest {
-
+	
+	@Test
+	void testConstructeur() {
+		Abonnes abonne = new Abonnes();
+		Assert.assertNotNull(abonne);
+	}
+	
 	@Test
 	void testConstructeur1() {
 		
@@ -33,5 +43,36 @@ class AbonnesTest {
 		assertEquals(abonne.getEmail(),"julien.gomes.dias@gmail.com");
 		assertEquals(abonne.getLogin(),"mypumas");
 		assertEquals(abonne.getPassword(),"thedoors");
+	}
+	
+	@Test
+	void testSetters() {
+		Abonnes abonne = new Abonnes();
+		abonne.setIdAbonne(1);
+		abonne.setNom("GOMES");
+		abonne.setPrenom("Julien");
+		abonne.setEmail("julien.gomes.dias@gmail.com");
+		abonne.setLogin("julien");
+		abonne.setPassword("thedoors");
+		Assert.assertEquals(abonne.getIdAbonne(),1);
+		Assert.assertEquals(abonne.getNom(),"GOMES");
+		Assert.assertEquals(abonne.getPrenom(),"Julien");
+		Assert.assertEquals(abonne.getEmail(),"julien.gomes.dias@gmail.com");
+		Assert.assertEquals(abonne.getLogin(),"julien");
+		Assert.assertEquals(abonne.getPassword(),"thedoors");
+		
+	}
+	
+	@Test
+	void testListAbonnes() {
+		Abonnes abonne = new Abonnes();
+		ResultSet rs = abonne.listAbonnes();
+		Assert.assertNull(rs);
+	}
+	
+	@Test
+	void testCreate() {
+		//Abonnes abonne = new Abonnes("Gomes", "Julien", "julien.gomes@cimpa.com","","");
+		
 	}
 }
