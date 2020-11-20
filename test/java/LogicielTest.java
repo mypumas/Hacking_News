@@ -3,9 +3,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
-import com.hackingnews.model.Criticite;
 import com.hackingnews.model.Logiciel;
-import com.hackingnews.model.Mesure;
 import com.mysql.jdbc.ResultSet;
 
 class LogicielTest {
@@ -43,7 +41,6 @@ class LogicielTest {
 	void testListLogiciel() {
 		Logiciel logiciel = new Logiciel();
 		ResultSet rs = logiciel.listLogiciel();
-		
-		Assert.assertNull(rs);
+		Assert.assertNotNull(rs);
 	}
 }

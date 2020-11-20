@@ -3,7 +3,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
-import com.hackingnews.model.Abonnement;
 import com.hackingnews.model.Abonnes;
 import com.mysql.jdbc.ResultSet;
 
@@ -67,7 +66,7 @@ class AbonnesTest {
 	void testListAbonnes() {
 		Abonnes abonne = new Abonnes();
 		ResultSet rs = abonne.listAbonnes();
-		Assert.assertNull(rs);
+		Assert.assertNotNull(rs);
 	}
 	
 	@Test

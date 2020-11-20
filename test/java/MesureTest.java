@@ -6,7 +6,6 @@ import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 import com.hackingnews.model.Criticite;
-import com.hackingnews.model.Logiciel;
 import com.hackingnews.model.Mesure;
 import com.hackingnews.model.Vulnerabilite;
 import com.mysql.jdbc.ResultSet;
@@ -79,7 +78,7 @@ class MesureTest {
 	void testListMesure() {
 		Mesure mesure = new Mesure();
 		ResultSet rs = mesure.listMesure();
-		Assert.assertNull(rs);
+		Assert.assertNotNull(rs);
 	}
 
 }

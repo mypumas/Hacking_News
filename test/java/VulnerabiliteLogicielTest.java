@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 
 import com.hackingnews.model.Criticite;
 import com.hackingnews.model.Logiciel;
-import com.hackingnews.model.Mesure;
 import com.hackingnews.model.Vulnerabilite;
 import com.hackingnews.model.VulnerabiliteLogiciel;
 import com.mysql.jdbc.ResultSet;
@@ -59,7 +58,7 @@ class VulnerabiliteLogicielTest {
 	void testListVulnerabiliteLogiciel() {
 		VulnerabiliteLogiciel vl = new VulnerabiliteLogiciel();
 		ResultSet rs = vl.listVulnerabiliteLogiciel();
-		Assert.assertNull(rs);
+		Assert.assertNotNull(rs);
 	}
 
 }

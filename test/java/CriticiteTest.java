@@ -3,7 +3,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
-import com.hackingnews.model.Abonnes;
 import com.hackingnews.model.Criticite;
 import com.mysql.jdbc.ResultSet;
 
@@ -46,7 +45,7 @@ class CriticiteTest {
 	void testListCriticite() {
 		Criticite criticite = new Criticite();
 		ResultSet rs = criticite.listCriticite();
-		Assert.assertNull(rs);
+		Assert.assertNotNull(rs);
 	}
 
 }

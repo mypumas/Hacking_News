@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 
 import com.hackingnews.model.Abonnement;
 import com.hackingnews.model.Abonnes;
-import com.hackingnews.model.Logiciel;
 import com.mysql.jdbc.ResultSet;
 
 
