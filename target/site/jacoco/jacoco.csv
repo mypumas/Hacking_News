@@ -1,0 +1,23 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Hacking_News,default,CriticiteTest,82,0,0,0,25,0,6,0,6,0
+Hacking_News,default,VulnerabiliteLogicielTest,138,0,0,0,31,0,5,0,5,0
+Hacking_News,default,MesureTest,236,0,0,0,47,0,6,0,6,0
+Hacking_News,default,AbonnementTest,95,0,0,0,26,0,5,0,5,0
+Hacking_News,default,ConnexionTest,8,0,0,0,3,0,2,0,2,0
+Hacking_News,default,VulnerabiliteTest,236,0,0,0,53,0,8,0,8,0
+Hacking_News,default,AbonnesTest,139,0,0,0,40,0,8,0,8,0
+Hacking_News,default,LogicielTest,69,0,0,0,22,0,6,0,6,0
+Hacking_News,com.hackingnews.model,Logiciel,35,67,0,0,8,27,1,10,1,10
+Hacking_News,com.hackingnews.model,SiteMapGenerator,32,0,0,0,10,0,3,0,3,0
+Hacking_News,com.hackingnews.model,Criticite,64,67,0,0,17,27,2,10,2,10
+Hacking_News,com.hackingnews.model,Abonnes,230,109,2,0,46,44,6,17,5,17
+Hacking_News,com.hackingnews.model,Mesure,134,80,0,0,34,32,4,12,4,12
+Hacking_News,com.hackingnews.model,MailThread,94,0,2,0,23,0,4,0,3,0
+Hacking_News,com.hackingnews.model,Vulnerabilite,114,146,0,0,25,48,3,16,3,16
+Hacking_News,com.hackingnews.model,SendMail,118,0,2,0,27,0,3,0,2,0
+Hacking_News,com.hackingnews.model,Abonnement,119,67,0,0,27,26,3,11,3,11
+Hacking_News,com.hackingnews.model,VulnerabiliteLogiciel,73,58,0,0,16,23,2,9,2,9
+Hacking_News,com.hackingnews.model,SendMail.new Authenticator() {...},9,0,0,0,2,0,2,0,2,0
+Hacking_News,com.hackingnews.model,Connexion,4,35,0,0,1,10,0,1,0,1
+Hacking_News,com.test,TestHacking,414,0,4,0,61,0,4,0,2,0
+Hacking_News,com.hackingnews.controller,ControllerServlet,1434,0,111,0,281,0,65,0,4,0

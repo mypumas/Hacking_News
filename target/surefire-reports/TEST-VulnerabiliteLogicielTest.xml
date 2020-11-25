@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="VulnerabiliteLogicielTest" time="0.078" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Administrator\Desktop\Cours_Java_2020\Hacking_News\target\test-classes;C:\Users\Administrator\Desktop\Cours_Java_2020\Hacking_News\target\classes;C:\Users\Administrator\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\Administrator\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Administrator\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Administrator\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\5.0.8\mysql-connector-java-5.0.8.jar;C:\Users\Administrator\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\Administrator\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\Administrator\.m2\repository\org\mockito\mockito-all\2.0.2-beta\mockito-all-2.0.2-beta.jar;C:\Users\Administrator\.m2\repository\org\junit\vintage\junit-vintage-engine\5.6.2\junit-vintage-engine-5.6.2.jar;C:\Users\Administrator\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Administrator\.m2\repository\org\assertj\assertj-core\3.16.1\assertj-core-3.16.1.jar;C:\Users\Administrator\.m2\repository\com\google\truth\truth\1.0.1\truth-1.0.1.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\28.1-android\guava-28.1-android.jar;C:\Users\Administrator\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Administrator\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Administrator\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Administrator\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Administrator\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\Administrator\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Administrator\.m2\repository\com\googlecode\java-diff-utils\diffutils\1.3.0\diffutils-1.3.0.jar;C:\Users\Administrator\.m2\repository\com\google\auto\value\auto-value-annotations\1.6.3\auto-value-annotations-1.6.3.jar;C:\Users\Administrator\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.3\error_prone_annotations-2.3.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows Server 2016"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin"/>
+    <property name="sun.java.command" value="C:\Users\Administrator\AppData\Local\Temp\2\surefire11394761090745161757\surefirebooter16883809971069902484.jar C:\Users\Administrator\AppData\Local\Temp\2\surefire11394761090745161757 2020-11-25T15-59-23_017-jvmRun1 surefire9530664135406374222tmp surefire_02553040356512509001tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Administrator\Desktop\Cours_Java_2020\Hacking_News\target\test-classes;C:\Users\Administrator\Desktop\Cours_Java_2020\Hacking_News\target\classes;C:\Users\Administrator\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\Administrator\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Administrator\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Administrator\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\5.0.8\mysql-connector-java-5.0.8.jar;C:\Users\Administrator\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\Administrator\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\Administrator\.m2\repository\org\mockito\mockito-all\2.0.2-beta\mockito-all-2.0.2-beta.jar;C:\Users\Administrator\.m2\repository\org\junit\vintage\junit-vintage-engine\5.6.2\junit-vintage-engine-5.6.2.jar;C:\Users\Administrator\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Administrator\.m2\repository\org\assertj\assertj-core\3.16.1\assertj-core-3.16.1.jar;C:\Users\Administrator\.m2\repository\com\google\truth\truth\1.0.1\truth-1.0.1.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\28.1-android\guava-28.1-android.jar;C:\Users\Administrator\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Administrator\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Administrator\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Administrator\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Administrator\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\Administrator\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Administrator\.m2\repository\com\googlecode\java-diff-utils\diffutils\1.3.0\diffutils-1.3.0.jar;C:\Users\Administrator\.m2\repository\com\google\auto\value\auto-value-annotations\1.6.3\auto-value-annotations-1.6.3.jar;C:\Users\Administrator\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.3\error_prone_annotations-2.3.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Administrator\Desktop\Cours_Java_2020\Hacking_News"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Administrator\AppData\Local\Temp\2\surefire11394761090745161757\surefirebooter16883809971069902484.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.9+7-LTS"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Administrator\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\2\"/>
+    <property name="java.version" value="11.0.9"/>
+    <property name="user.dir" value="C:\Users\Administrator\Desktop\Cours_Java_2020\Hacking_News"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\binaries\php\php_runningversion;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.9\bin;C:\Program Files\Git\cmd;C:\Users\Administrator\Desktop\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.9\bin;C:\Users\Administrator\Desktop\sonar-scanner-cli-4.2.0.1873-windows\sonar-scanner-4.2.0.1873-windows\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11.0.9\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.9+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testConstructeur" classname="VulnerabiliteLogicielTest" time="0.004"/>
+  <testcase name="testConstructeur1" classname="VulnerabiliteLogicielTest" time="0.001"/>
+  <testcase name="testListVulnerabiliteLogiciel" classname="VulnerabiliteLogicielTest" time="0.066"/>
+  <testcase name="testSetters" classname="VulnerabiliteLogicielTest" time="0.001"/>
+</testsuite>

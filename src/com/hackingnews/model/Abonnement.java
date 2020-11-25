@@ -6,7 +6,8 @@ import javax.swing.JOptionPane;
 
 import com.hackingnews.controller.AbonnementInterface;
 import com.mysql.jdbc.PreparedStatement;
-import com.mysql.jdbc.ResultSet;
+//import com.mysql.jdbc.ResultSet;
+import com.mysql.jdbc.*;
 
 public class Abonnement implements AbonnementInterface {
 
